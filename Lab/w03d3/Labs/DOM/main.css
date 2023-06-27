@@ -1,0 +1,8 @@
+.quilt-square {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin: 1px;
+    flex-wrap
+  }
+  

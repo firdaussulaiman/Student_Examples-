@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .column1 {
+    flex: 1;
+    padding: 10px;
+  }
+  .column2 {
+    flex: 1;
+    padding: 10px;
+    
+  }
+  .column3 {
+    flex: 1;
+    padding: 10px;
+    order: 3;
+  }
+  
+  h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    text-emphasis-style: bold;
+  }
+  
+  .completed-item {
+    background-color: #ED6495;
+    position: relative;
+  }
+  

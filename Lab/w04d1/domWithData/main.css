@@ -1,0 +1,56 @@
+/* .container {
+    background-color: #6786DE;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+} */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+
+
+/***********************************
+* GENERAL
+************************************/
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/***********************************
+* TABLE
+************************************/
+.info-table {
+  background-color: oldlace;
+  margin: 1em auto;
+  width: 70%;
+  border-spacing: 0;
+}
+
+tr {
+  border-bottom: 2px solid grey;
+}
+td, th {
+  border-bottom: 1px solid grey;
+  padding: .5em;
+}
+
+th {
+  font-size: 1.5em;
+  background: moccasin;
+}
+
+tr:nth-child(even) {
+  background: papayawhip;
+}
+
+tr:nth-child(odd) {
+  background: aqua;
+}
+
+tr:hover {
+  background: blanchedalmond;
+  color: steelblue;
+  cursor: pointer;
+}
+
+.address {
+  text-align: center;
+}

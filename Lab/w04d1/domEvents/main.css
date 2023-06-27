@@ -1,0 +1,19 @@
+body {
+    background-color: blanchedalmond;
+    padding: 100px;
+    border: 5px dashed darkgreen;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 100px;
+    border: 5px dotted red;
+}
+
+.clickable {
+    width: 30px;
+    background-color: aqua;
+    cursor: pointer;
+}

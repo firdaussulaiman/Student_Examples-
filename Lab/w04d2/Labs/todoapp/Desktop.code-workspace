@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../../.."
+		},
+		{
+			"name": "student-examples",
+			"path": "../../../../../../../SEIF-14-course-materials-main/student-examples"
+		},
+		{
+			"name": "SEIF-14-HW-Submission",
+			"path": "../../../../../../../../Homework/SEIF-14-HW-Submission"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Desktop"
+	}
+}

@@ -1,0 +1,42 @@
+#grid-container {
+    width: 400px; /* Adjust the width as needed */
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 0; /* Remove the whitespace between rows */
+  }
+  
+  .square {
+    width: 50px; /* Adjust the square size as needed */
+    height: 50px;
+  }
+  
+  .checkerboard .square:nth-child(2n) {
+    background-color: red;
+  }
+  
+  .checkerboard .square:nth-child(2n+1) {
+    background-color: black;
+  }
+  
+  .checkerboard .square:nth-child(16n+1),
+  .checkerboard .square:nth-child(16n+3),
+  .checkerboard .square:nth-child(16n+5),
+  .checkerboard .square:nth-child(16n+7),
+  .checkerboard .square:nth-child(16n+10),
+  .checkerboard .square:nth-child(16n+12),
+  .checkerboard .square:nth-child(16n+14),
+  .checkerboard .square:nth-child(16n+16) {
+    background-color: red;
+  }
+  
+  .checkerboard .square:nth-child(16n+2),
+  .checkerboard .square:nth-child(16n+4),
+  .checkerboard .square:nth-child(16n+6),
+  .checkerboard .square:nth-child(16n+8),
+  .checkerboard .square:nth-child(16n+9),
+  .checkerboard .square:nth-child(16n+11),
+  .checkerboard .square:nth-child(16n+13),
+  .checkerboard .square:nth-child(16n+15) {
+    background-color: black;
+  }
+  
